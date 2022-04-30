@@ -1,0 +1,38 @@
+#landing {
+    display: flex;
+    align-items: center;
+    min-height: 60vh;
+    @media screen and (max-height: 1150px) {
+        min-height: 70vh;
+    }
+    @media screen and (max-width: 750px) {
+        flex-direction: column;
+    }
+    .text-container {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        @media screen and (max-width: 750px) {
+            width: 100%;
+            margin: 50px 0;
+        }
+        p {
+            margin: 40px 0;
+            max-width: 70%;
+            @media screen and (max-width: 750px) {
+                max-width: 100%;
+            }
+        }
+        .button-link {
+            max-width: 200px;
+            text-align: center;
+        }
+    }
+    img {
+        width: 50%;
+        height: 100%;
+        @media screen and (max-width: 750px) {
+            width: 100%;
+        }
+    }
+}

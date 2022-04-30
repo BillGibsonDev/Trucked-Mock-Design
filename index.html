@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trucked | Logistical Solutions</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="home">
+        <h2>Trucked</h2>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="/#services">Services</a>
+            <a href="/#careers">Careers</a>
+        </nav>
+        <a id="nav-button" class="button-link" href="/#contact">Contact</a>
+        <div id="mobile-nav" class="overlay">
+            <button id="closeNavButton" onclick='toggleNav()'>&times;</button>
+            <div class="overlay-content" onclick='toggleNav()'>
+                <a href='/'>Home</a>
+                <a href='/#services'>Services</a>
+                <a href='/#careers'>Careers</a>
+                <a href='/#contact'>Contact</a>
+            </div>
+        </div>
+        <img id="hamburger" onclick='toggleNav()' src="./assests/icons/menuFFB703.png" alt="">
+    </header>
+    <div class="background-gradient"></div>
+    <section id="landing">
+        <div class="text-container">
+            <h2>Solving Logistical</h2>
+            <h2>Issues Since 1988</h2>
+            <p>It's more than just trucking. Logistics can be the lifeblood of your business. We are here to help you and your business with our logistical solutions and more.</p>
+            <a class="button-link" href="#services">Learn more</a>
+        </div>
+        <img src="./assests/images/truck.jpg" alt="">
+    </section>
+    <section id="services">
+        <div class="title-container">
+            <h2>Business Solutions We Provide</h2>
+            <p>Trucked provides custom solutions for your business and logistical issues. Consult with us today to get started.</p>
+        </div>
+        <div class="infograph-container">
+            <img src="./assests/images/warehouse.jpg" alt="">
+            <div class="text-container">
+                <h4>Learn More about Soltuions for your Business</h4>
+                <p>Just a few of many custom soltuions we can provide. Just a phone call away.</p>
+                <div class="icons-wrapper">
+                    <div class="icon-container">
+                        <img src="./assests/icons/dumpTruckFFB703.png" alt="">
+                        <h6>Constuction</h6>
+                    </div>
+                    <div class="icon-container">
+                        <img src="./assests/icons/truckFFB703.png" alt="">
+                        <h6>Shipping</h6>
+                    </div>
+                    <div class="icon-container">
+                        <img src="./assests/icons/boxesFFB703.png" alt="">
+                        <h6>Warehousing</h6>
+                    </div>
+                    <div class="icon-container">
+                        <img src="./assests/icons/chartFFB703.png" alt="">
+                        <h6>Logisitics</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="careers">
+        <div class="title-container">
+            <h2>Join our Dedicated Team</h2>
+            <p>We are always looking for top talent to join our commited team of professionals. Our business is always expanding. We search for the best talent and offer competitive wages</p>
+        </div>
+        <div class="careers-container">
+            <div class="text-container">
+                <h4>We are Always Looking for:</h4>
+                <h6>Drivers</h6>
+                <h6>Administative Assistants</h6>
+                <h6>Warehouse Workers</h6>
+                <h6>Logistical Experts</h6>
+            </div>
+            <div class="image-background">
+                <img src="./assests/images/join.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <div class="wrapper">
+            <div class="contact-wrapper">
+                <div class="contact-container">
+                    <img src="./assests/icons/phoneFFB703.png" alt="">
+                    <h6>1 - (111) - 222 - 3333</h6>
+                </div>
+                <div class="contact-container">
+                    <img src="./assests/icons/emailFFB703.png" alt="">
+                    <h6>Contact@Trucked.com</h6>
+                </div>
+            </div>
+            <div class="socials-wrapper">
+                <h6>Stay Connected</h6>
+                <div class="icon-container">
+                    <a href="http://facebook.com"><img src="./assests/icons/facebookFFB703.png" alt="facebook logo"></a>
+                    <a href="http://linkedin.com"><img src="./assests/icons/linkedinFFB703.png" alt="linkedin logo"></a>
+                    <a href="http://twitter.com"><img src="./assests/icons/twitterFFB703.png" alt="twitter logo"></a>
+                </div>
+            </div>
+        </div>
+        <h5>Trucked <span>© 2022 Trucked.com</span></h5>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
